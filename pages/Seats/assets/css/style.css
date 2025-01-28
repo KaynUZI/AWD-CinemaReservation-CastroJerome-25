@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('../img/Background\ Cinema\ Seats.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #000000;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  button {
+    background-color: #1a73e8;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #145ab6;
+  }
+  
+  .seat-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  
+  .seat {
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .seat.selected {
+    background-color: #1a73e8;
+    color: #fff;
+  }
+  

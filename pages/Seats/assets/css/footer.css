@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: url('../img/Background\ Cinema\ Seats.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+  }
+  
+  
+  footer {
+    background-color: #343a40;
+    color: rgb(255, 255, 255);
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: auto;
+  }
+  
+  footer p {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
