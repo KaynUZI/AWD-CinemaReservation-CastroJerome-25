@@ -1,0 +1,136 @@
+/* Background */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../img/Background\ 2.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Cinema Container */
+.cinema-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Movie Selection Container */
+.movie-selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Aligns items to the top */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  flex-wrap: wrap; /* Allows wrapping if the screen is small */
+}
+
+/* Movie Preview */
+.movie-preview {
+  text-align: center;
+  width: 200px;
+  margin-bottom: 20px; /* Space between previews */
+}
+
+.movie-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Seat Container */
+.seat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%; /* Adjust width of the seat grid */
+}
+
+/* Date Picker */
+#movie-date {
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  display: block;
+  width: 100%; /* Ensure it takes up full width */
+}
+
+/* Screen */
+.screen {
+  width: 80%;
+  height: 50px;
+  background-color: #222;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 50px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+/* Seat Grid */
+.seat-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Seat Row */
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+/* Seat Style */
+.seat {
+  width: 40px;
+  height: 40px;
+  background-color: #444;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover and Selected Seat */
+.seat:hover {
+  background-color: #1a73e8;
+}
+
+.seat.selected {
+  background-color: #1a73e8;
+  color: white;
+}
+
+/* Reserve Button */
+#reserve-btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#reserve-btn:hover {
+  background-color: #145ab6;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: rgb(255, 255, 255);
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}

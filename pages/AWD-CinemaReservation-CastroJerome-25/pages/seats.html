@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seat Reservation</title>
+  <link rel="stylesheet" href="../pages/Seats/assets/css/header.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+  <link rel="stylesheet" href="../pages/Seats/assets/css/style.css">
+  <script defer src="../pages/Seats/assets/js/scripts.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Cinema Seat Reservation</h1>
+  </header>
+
+  <main class="cinema">
+    <div class="movie-selection">
+
+      <div class="movie-preview">
+        <img src="./Seats/assets/img/Movie 1.jpg" alt="Scott Pilgrim" class="movie-img">
+        <h3>Scott Pilgrim vs. The World</h3>
+      </div>
+
+
+      <div class="seat-container">
+        <h2>Select a Date:</h2>
+        <input type="date" id="movie-date" required>
+
+        <div class="screen">SCREEN</div>
+
+        <div class="seat-grid">
+          <div class="row">
+            <span class="seat"></span>
+            <span class="seat"></span>
+            <span class="seat occupied"></span>
+            <span class="seat"></span>
+            <span class="seat"></span>
+          </div>
+          <div class="row">
+            <span class="seat"></span>
+            <span class="seat"></span>
+            <span class="seat"></span>
+            <span class="seat"></span>
+            <span class="seat"></span>
+          </div>
+          <div class="row">
+            <span class="seat"></span>
+            <span class="seat occupied"></span>
+            <span class="seat"></span>
+            <span class="seat occupied"></span>
+            <span class="seat"></span>
+          </div>
+        </div>
+
+        <button id="reserve-btn">Confirm Reservation</button>
+      </div>
+
+ 
+      <div class="movie-preview">
+        <img src="./Seats/assets/img/Movie 3.jpg" alt="American Psycho" class="movie-img">
+        <h3>American Psycho</h3>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 PeKBoK. All Rights Reserved to @KaynUziVert.</p>
+  </footer>
+</body>
+</html>
