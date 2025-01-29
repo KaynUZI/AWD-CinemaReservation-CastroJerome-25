@@ -131,8 +131,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Google | this is there i search the picture of the project | [Google.com](https://www.google.com/search?q=scott+pilgrim+vs+the+world&client=opera-gx&hs=xd8&sca_esv=02ffffb80f2add66&sxsrf=AHTn8zoMSursXnn-AQQ4W_wC-ES4byXtrg%3A1738141364543&ei=tO6ZZ4X0ILSh1e8P0cDx6Qs&gs_ssp=eJzj4tLP1TcwLTGINyozYPSSKk7OLylRKMjMSS_KzFUoK1YoyUhVKM8vykkBAAAtDXg&oq=scott+pilgrim+vs&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHNjb3R0IHBpbGdyaW0gdnMqAggAMg0QLhiABBixAxhDGIoFMgoQLhiABBhDGIoFMgQQABgDMgUQABiABDIFEC4YgAQyBRAAGIAEMgoQABiABBgUGIcCMgUQABiABDIFEC4YgAQyBRAAGIAEMisQLhiABBixAxhDGIoFGJcFGNwEGN4EGOAEGPQDGPEDGPUDGPYDGPcD2AEBSOYcUPMHWMEWcAZ4AZABAJgBd6ABqgaqAQMyLja4AQHIAQD4AQGYAg6gAucGwgIKEAAYsAMY1gQYR8ICChAjGIAEGCcYigXCAhAQLhiABBixAxhDGNQCGIoFwgIKEAAYgAQYQxiKBcICCxAAGIAEGJECGIoFwgILEC4YgAQYkQIYigXCAggQLhiABBjUAsICDhAuGIAEGJECGLEDGIoFwgIGEAAYAxgKwgIHEC4YgAQYCsICBxAAGIAEGArCAiwQLhiABBiRAhixAxiKBRiXBRjcBBjeBBjgBBj0AxjxAxj1Axj2Axj3A9gBAcICKxAuGIAEGLEDGEMYigUYlwUY3AQY3gQY4AQY9AMY8QMY9QMY9gMY9wPYAQGYAwCIBgGQBgi6BgYIARABGBSSBwM4LjagB-uuAQ&sclient=gws-wiz-serp) |
-
+| Google | this is there i search the picture of the project | www.Google.com |
 |Pinterest|This is where i got the background pictures and some of the movie cover |https://ph.pinterest.com|
 |Youtube| I search for reference of how to code like this in youtube and applied some of the learnings that i gathered |[https://ph.pinterest.com](https://www.youtube.com)|
 
