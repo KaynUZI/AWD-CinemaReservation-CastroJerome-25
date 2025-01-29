@@ -4,25 +4,25 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="[https://github.com/zyx-0314/](https://github.com/KaynUZI)">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="https://i.pinimg.com/550x/fe/7a/2f/fe7a2ff2e3b57b681f667d604e3c8f2c.jpg" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Cinema Reservation</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+This system allows cinema reservations for two different movies.  It checks for seat availability, ensuring at least 10 seats are free before confirming a reservation and payment.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![]([https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project](https://github.com/KaynUZI/AWD-CinemaReservation-CastroJerome-25))
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime]([https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8](https://wakatime.com/dashboard))
 
 ---
 
@@ -63,16 +63,28 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+  This project is about a cinema reservation with 2 movies and atleast 10 seats that are available.
 - Whats the purpose
+  To reserve a seat just like in the cinema in the mall and make reservations in where seat you want
 - What are key components
-- What technology used and how it is used
+HTML Elements: Header, footer, form with input fields for user data, and a button.
+Form Styling: Centered container with well-styled inputs and dropdown.
+CSS Effects: Transitions on button hover, smooth input focus styles.
+Responsive Design: Flexbox-based layout for adaptability.
+Form Validation: Ensures required fields are completed before submission.
 
+- What technology used and how it is used
+HTML: Structures the page, with interactive form elements (<input>, <select>, <button>).
+CSS: Styles the page with Flexbox for layout, and responsive, modern visual design using padding, borders, and color contrasts.
+Responsive Web Design: Ensures that the design adapts to different screen sizes using Flexbox and meta viewport tags.
+Web Fonts: Arial for typography, ensuring readability.
+JavaScript (optional): Can be used to add interactive functionality and form validation (though not used in the current code).
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- HTML
+- CSS
+- JavaScript
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -119,4 +131,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Google | this is there i search the picture of the project | [Google.com](https://www.google.com/search?q=scott+pilgrim+vs+the+world&client=opera-gx&hs=xd8&sca_esv=02ffffb80f2add66&sxsrf=AHTn8zoMSursXnn-AQQ4W_wC-ES4byXtrg%3A1738141364543&ei=tO6ZZ4X0ILSh1e8P0cDx6Qs&gs_ssp=eJzj4tLP1TcwLTGINyozYPSSKk7OLylRKMjMSS_KzFUoK1YoyUhVKM8vykkBAAAtDXg&oq=scott+pilgrim+vs&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHNjb3R0IHBpbGdyaW0gdnMqAggAMg0QLhiABBixAxhDGIoFMgoQLhiABBhDGIoFMgQQABgDMgUQABiABDIFEC4YgAQyBRAAGIAEMgoQABiABBgUGIcCMgUQABiABDIFEC4YgAQyBRAAGIAEMisQLhiABBixAxhDGIoFGJcFGNwEGN4EGOAEGPQDGPEDGPUDGPYDGPcD2AEBSOYcUPMHWMEWcAZ4AZABAJgBd6ABqgaqAQMyLja4AQHIAQD4AQGYAg6gAucGwgIKEAAYsAMY1gQYR8ICChAjGIAEGCcYigXCAhAQLhiABBixAxhDGNQCGIoFwgIKEAAYgAQYQxiKBcICCxAAGIAEGJECGIoFwgILEC4YgAQYkQIYigXCAggQLhiABBjUAsICDhAuGIAEGJECGLEDGIoFwgIGEAAYAxgKwgIHEC4YgAQYCsICBxAAGIAEGArCAiwQLhiABBiRAhixAxiKBRiXBRjcBBjeBBjgBBj0AxjxAxj1Axj2Axj3A9gBAcICKxAuGIAEGLEDGEMYigUYlwUY3AQY3gQY4AQY9AMY8QMY9QMY9gMY9wPYAQGYAwCIBgGQBgi6BgYIARABGBSSBwM4LjagB-uuAQ&sclient=gws-wiz-serp) |
+
+|Pinterest|This is where i got the background pictures and some of the movie cover |https://ph.pinterest.com|
+|Youtube| I search for reference of how to code like this in youtube and applied some of the learnings that i gathered |[https://ph.pinterest.com](https://www.youtube.com)|
+
