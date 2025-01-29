@@ -1,87 +1,103 @@
+/* Background */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: url('../img/Background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #333;
-  }
-  
-  .header {
-    background-color: #1a1a1a;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  .header h1 {
-    margin: 0;
-    font-size: 2rem;
-  }
-  
-  .reservation {
-    max-width: 800px;
-    margin: 20px auto;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-  }
-  
-  .reservation h2 {
-    text-align: center;
-    color: #444;
-  }
-  
-  .movies {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  
-  .movie {
-    text-align: center;
-    background: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-  }
-  
-  .movie img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .movie h3 {
-    margin: 10px 0;
-    color: #333;
-  }
-  
-  .movie p {
-    color: #555;
-  }
-  
-  button {
-    background-color: #1a73e8;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #145ab6;
-  }
-  
-  /* Footer */
-  .footer {
-    background-color: #1a1a1a;
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-    font-size: 0.9rem;
-    margin-top: 20px;
-  }
-  
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('../img/Background\ 2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Reservation Section */
+.reservation {
+  max-width: 800px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.reservation h2 {
+  text-align: center;
+  color: #444;
+}
+
+/* Movie Grid */
+.movies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.movie {
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.movie h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.movie p {
+  color: #555;
+}
+
+/* Button as link */
+a.button {
+  display: inline-block;
+  background-color: #1a73e8;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+a.button:hover {
+  background-color: #145ab6; /* Darker blue */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Optional: Focus state for accessibility */
+a.button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.6); /* Soft blue glow */
+}
+
+/* Footer */
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
