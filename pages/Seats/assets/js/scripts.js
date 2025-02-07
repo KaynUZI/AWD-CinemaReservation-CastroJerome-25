@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   reserveBtn.addEventListener("click", () => {
     alert("Seats reserved successfully!");
-    window.location.href = "../../../../pages/Payment/payment.html";
+    window.location.href = "../../../payment.html";
   });
 });
