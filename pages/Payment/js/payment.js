@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (name && email && paymentMethod) {
           alert(`Reservation confirmed!\nName: ${name}\nEmail: ${email}\nPayment: ${paymentMethod}`);
           
-          window.location.href = "/pages/payment.html";
+          window.location.href = "payment.html";
       } else {
           alert("Please fill in all the fields.");
       }
