@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     alert("Seats reserved successfully!");
     
 
-    window.location.href = "../../../../pages/payment.html";
+    window.location.href = "/pages/payment.html";
   });
 });
