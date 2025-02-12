@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background: url('../img/Background\ 2.jpg') no-repeat center center fixed;
+  background: url('../img/Background 2.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -36,6 +36,16 @@ body {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
+  padding: 0; /* Set padding to 0 */
+  margin-left: 10px; /* Add left margin to push it to the side */
+  margin-right: 10px; /* Optional: add right margin for spacing */
+}
+
+/* Reservation and Payment Container */
+.reservation-payment-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%; /* Adjust width as necessary */
 }
 
 /* Seat Container */
@@ -43,7 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 60%; /* Adjust width of the seat grid */
+  width: 50%; /* Adjust width of the seat grid */
 }
 
 /* Date Picker */
@@ -114,10 +124,41 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  width: 100%; /* Full width for the button */
 }
 
 #reserve-btn:hover {
   background-color: #145ab6;
+}
+
+/* Payment Details Section */
+.payment-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px; /* Space between the seat and payment details */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  width: 45%; /* Adjust width as necessary */
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+  width: 100%; /* Full width for form groups */
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 /* Footer */
