@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
       
       alert("Seats reserved successfully!");
       
-      window.location.href = "../../index.html";
+      window.location.href = "/AWD-CinemaReservation-CastroJerome-25-main/index.html";
     } else {
       alert("No seats selected.");
     }
