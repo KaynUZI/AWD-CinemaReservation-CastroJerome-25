@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const email = emailInput.value.trim();
     const paymentMethod = paymentMethodInput.value;
     
-
+    
     reserveBtn.disabled = !(name && email && paymentMethod);
   }
   
@@ -25,30 +25,31 @@ document.addEventListener("DOMContentLoaded", () => {
     seat.addEventListener("click", () => {
       
       if (!seat.classList.contains("occupied")) {
-        seat.classList.toggle("selected");
+        seat.classList.toggle("selected"); 
       }
     });
   });
   
-  
+
   reserveBtn.addEventListener("click", () => {
     let selectedSeats = [];
     seats.forEach(seat => {
       if (seat.classList.contains("selected")) {
         seat.classList.add("occupied");
-        seat.classList.remove("selected"); 
-        selectedSeats.push(seat); 
+        seat.classList.remove("selected");
+        selectedSeats.push(seat);
       }
     });
     
     if (selectedSeats.length > 0) {
       alert("Seats reserved successfully!");
       
-      
+
       reserveBtn.disabled = true;
       
+
+      window.location.href = "../../../index.html";
       
-      window.location.href = "../../index.html";
     } else {
       alert("No seats selected.");
       return; 
