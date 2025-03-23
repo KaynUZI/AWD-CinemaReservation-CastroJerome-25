@@ -10,12 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const email = emailInput.value.trim();
     const paymentMethod = paymentMethodInput.value;
     
-    
     reserveBtn.disabled = !(name && email && paymentMethod);
   }
-  
-  
-  validatePaymentDetails();
   
   nameInput.addEventListener("input", validatePaymentDetails);
   emailInput.addEventListener("input", validatePaymentDetails);
@@ -23,20 +19,18 @@ document.addEventListener("DOMContentLoaded", () => {
   
   seats.forEach(seat => {
     seat.addEventListener("click", () => {
-      
       if (!seat.classList.contains("occupied")) {
-        seat.classList.toggle("selected"); 
+        seat.classList.toggle("selected");
       }
     });
   });
   
-
   reserveBtn.addEventListener("click", () => {
     let selectedSeats = [];
     seats.forEach(seat => {
       if (seat.classList.contains("selected")) {
         seat.classList.add("occupied");
-        seat.classList.remove("selected");
+        seat.classList.remove("selected"); 
         selectedSeats.push(seat);
       }
     });
@@ -44,15 +38,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (selectedSeats.length > 0) {
       alert("Seats reserved successfully!");
       
-
       reserveBtn.disabled = true;
       
-
-      window.location.href = "../../../index.html";
-      
+      window.location.href = "/WD-AWD-CinemaReservation-CastroJerome-25/";
     } else {
       alert("No seats selected.");
-      return; 
     }
   });
 });
