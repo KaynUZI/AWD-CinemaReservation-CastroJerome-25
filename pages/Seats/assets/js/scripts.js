@@ -53,6 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
     
     reserveBtn.disable = true; 
    
-    window.location.href = "../index.html"; 
+    window.location.href = "../../index.html"; 
   });
 });
