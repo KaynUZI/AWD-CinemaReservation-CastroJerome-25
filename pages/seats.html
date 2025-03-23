@@ -6,7 +6,7 @@
   <title>Seat Reservation</title>
   <link rel="stylesheet" href=".">
   <link rel="stylesheet" href="../assets/css/footer.css">
-  <link rel="stylesheet" href="../pages/Seats/assets/css/style.css"> 
+  <link rel="stylesheet" href="../pages/Seats/assets/css/style.css">
 </head>
 <body>
   <header class="header">
@@ -53,7 +53,7 @@
           <button id="reserve-btn">Confirm Reservation</button>
         </div>
 
-        <!-- Payment Details Section -->
+
         <div class="payment-details">
           <h2>Payment Details</h2>
           <form id="payment-form">
@@ -97,6 +97,34 @@
       const nameInput = document.getElementById("name");
       const emailInput = document.getElementById("email");
       const paymentMethodInput = document.getElementById("payment-method");
+      const dateInput = document.getElementById("movie-date");
+      
+
+      function loadSeats() {
+        const occupiedSeats = JSON.parse(localStorage.getItem('occupiedSeats')) || [];
+        
+        seats.forEach((seat, index) => {
+          if (occupiedSeats.includes(index)) {
+            seat.classList.add('occupied');
+          }
+        });
+      }
+      
+
+      function saveSeats() {
+        const occupiedSeats = [];
+        
+        seats.forEach((seat, index) => {
+          if (seat.classList.contains('occupied')) {
+            occupiedSeats.push(index);
+          }
+        });
+        
+        localStorage.setItem('occupiedSeats', JSON.stringify(occupiedSeats));
+      }
+      
+
+      loadSeats();
       
       function validatePaymentDetails() {
         const name = nameInput.value.trim();
@@ -129,10 +157,25 @@
         });
         
         if (selectedSeats.length > 0) {
+
+          const reservationDetails = {
+            name: nameInput.value.trim(),
+            email: emailInput.value.trim(),
+            date: dateInput.value,
+            paymentMethod: paymentMethodInput.value,
+            seatCount: selectedSeats.length
+          };
+          
+          localStorage.setItem('lastReservation', JSON.stringify(reservationDetails));
+          
+
+          saveSeats();
+          
           alert("Seats reserved successfully!");
           
           reserveBtn.disabled = true;
           
+ 
           location.href = "../index.html";
         } else {
           alert("No seats selected.");
