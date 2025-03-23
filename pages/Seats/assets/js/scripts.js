@@ -40,8 +40,13 @@ document.addEventListener("DOMContentLoaded", () => {
       
       reserveBtn.disabled = true;
       
-      // Simple approach using location.href
-      location.href = "/WD-AWD-CinemaReservation-CastroJerome-25/";
+
+      history.back();
+      
+
+      setTimeout(function() {
+        location.href = "index.html";
+      }, 1000);
     } else {
       alert("No seats selected.");
     }
