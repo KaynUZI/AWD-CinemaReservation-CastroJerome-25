@@ -104,24 +104,33 @@ JavaScript (optional): Can be used to add interactive functionality and form val
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-AWD-CinemaReservation-CastroJerome-25
 └─ assets
 |   └─ css
+|   |   └─ footer.css
+|   |   └─ header.css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ Background 2.jpg
+|   |   └─ Background Cinema Seats.jpg
+|   |   └─ Movie 1.jpg
+|   |   └─ Movie 3.jpg
 |   └─ js
-|       └─ script.js
+|       └─ scripts.js
 └─ pages
-|  └─ pageName
-|     └─ assets
+|  └─ Seats/assets
 |     |  └─ css
+|     |  |  └─ footer.css
+|     |  |  └─ header.css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  |  └─ Background 2.jpg
+|     |  |  └─ Background Cinema Seats.jpg
+|     |  |  └─ Movie 1.jpg
+|     |  |  └─ Movie 3.jpg
 |     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
+|     |     └─ scripts.js
+└─ seats.html
 └─ index.html
 └─ readme.md
 ```
